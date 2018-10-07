@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hi"'
+                sh 'echo "CRON"'
                 sh '''
-                    echo "Multiline !~!"
+                    echo "CRON"
                     ls -lah
                 '''
             }
